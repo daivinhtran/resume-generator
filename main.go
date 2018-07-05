@@ -1,3 +1,7 @@
+/*
+A simple resume generator from json to html
+Author: Vinh Tran
+*/
 package main
 
 import (
@@ -41,7 +45,6 @@ func check(e error) {
 
 func main() {
 	template := template.Must(template.ParseFiles("resume_template.html"))
-
 	resume, err := os.Create("./resume.html")
 	check(err)
 	defer resume.Close()
@@ -50,25 +53,7 @@ func main() {
 	check(err)
 	resumeData := BytesToResume(raw)
 
-	// data := Resume{
-	// 	Header: Header{
-	// 		Name:     "Vinh Tran",
-	// 		Github:   "daivinhtran",
-	// 		LinkedIn: "vinhtran40",
-	// 	},
-	// }
 	template.Execute(resume, resumeData)
-
-	// data := TodoPageData{
-	// 	PageTitle: "My TODO list",
-	// 	Todos: []Todo{
-	// 		{Title: "Task 1", Done: false},
-	// 		{Title: "Task 2", Done: true},
-	// 		{Title: "Task 3", Done: true},
-	// 	},
-	// }
-	// template.Execute(resume, data)
-
 }
 
 func BytesToResume(raw []byte) *Resume {
