@@ -27,7 +27,8 @@ type Header struct {
 }
 
 type Body struct {
-	Works []Work
+	Works     []Work
+	Education Education
 }
 
 type Work struct {
@@ -35,6 +36,13 @@ type Work struct {
 	Time        string
 	Title       string
 	Description []string
+}
+
+type Education struct {
+	School string
+	Time   string
+	Degree string
+	Note   string
 }
 
 func check(e error) {

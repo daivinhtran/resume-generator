@@ -27,7 +27,22 @@
                     "do this",
                     "do that"
                 ]
+            },
+            {
+                "company": "Macy's",
+                "time": "Summer 2016 - Fall 2016",
+                "title": "Software Engineer Intern",
+                "description": [
+                    "do this",
+                    "do that"
+                ]
             }
-        ]
+        ],
+        "education": {
+            "school": "Georgia Institute of Technology",
+            "time": "May 2019 (expected)",
+            "degree": "Bachelor of Science in Computer Science",
+            "note": "GPA: 3.5/4.0"
+        }
     }
 }

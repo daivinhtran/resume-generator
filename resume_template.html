@@ -236,63 +236,11 @@ h4 span:first-child {
 		</aside>
 		<div class="col-sm-9">
 			{{ template "works" .Works}}
-			<!-- <div class="row">
-
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Square</span>
-					<span class="date">
-						Sep. 2017 – present
-					</span>
-				</h4>
-
-				<div class="position">
-					Software Engineer
-				</div>
-
-				<ul class="highlights">
-					<li class="bullet">
-						Point of Sale Server team
-					</li>
-					<li class="bullet">
-						Java, Ruby, Ember
-					</li>
-				</ul>
-
-			</div>
-
-			</div> <br>
-
-			<div class="row">
-
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>PagerDuty</span>
-					<span class="date">
-						May 2016 – Sep. 2017
-					</span>
-				</h4>
-
-				<div class="position">
-					Fullstack Software Engineer
-				</div>
-
-				<ul class="highlights">
-					<li class="bullet">
-						Platform team
-					</li>
-					<li class="bullet">
-						Ruby on Rails, Node, Ember, Elixir, Scala
-					</li>
-				</ul>
-
-			</div>
-
-			</div> <br> -->
-
 		</div>
 	</section>
-	</div>
+	{{ template "education" .Education}}
+
+</div>
 {{end}}
 
 {{define "works"}}
@@ -321,6 +269,33 @@ h4 span:first-child {
 	</div>
 
 </div> <br>
-
 {{end}}
+{{end}}
+
+{{define "education"}}
+<section id="education" class="row">
+	<aside class="col-sm-3">
+		<h3>Education</h3>
+	</aside>
+	<div class="col-sm-9">
+		<div class="row">
+
+		<div class="col-sm-12">
+			<h4 class="strike-through">
+				<span>{{.School}}</span>
+				<span class="date">
+					{{.Time}}
+				</span>
+			</h4>
+
+			<div class="area">
+				{{.Degree}}
+			</div>
+
+			<div class="studyType">
+				{{.Note}}
+			</div>
+		</div>
+	</div>
+</section>
 {{end}}
