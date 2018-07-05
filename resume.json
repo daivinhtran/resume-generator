@@ -12,11 +12,19 @@
         "works": [
             {
                 "company": "Uber",
-                "time": "Summer 2018",
+                "time": "Summer 2018 - present",
                 "title": "Software Engineer Intern",
                 "description": [
-                    "do this",
-                    "do that"
+                    "To be updated soon :)"
+                ]
+            },
+            {
+                "company": "Georgia Institute of Technology",
+                "time": "Fall 2017",
+                "title": "Undergraduate Teaching Assistant",
+                "description": [
+                    "Supervise 4 teams of students as they spend the semester developing an Android application",
+                    "Hold weekly office hours and grade homework, demos, and exams"
                 ]
             },
             {
@@ -24,8 +32,12 @@
                 "time": "Summer 2017",
                 "title": "Software Engineer Intern",
                 "description": [
-                    "do this",
-                    "do that"
+                    "Developed new core features on PagerDuty’s web platform",
+                    "Implemented logic to produce webhook payload to Kafka cluster for a new service to consume",
+                    "Discovered and fixed a major issue in API testing set up",
+                    "Refactored an existing Javascript codebase to make it easier for debugging and unit testing",
+                    "Participated in HackDay and won an award for the Best Product Enhancement",
+                    "Technologies include Ruby on Rails, EmberJS, Coffeescript, MySQL, AWS Lambda"
                 ]
             },
             {
@@ -33,8 +45,9 @@
                 "time": "Summer 2016 - Fall 2016",
                 "title": "Software Engineer Intern",
                 "description": [
-                    "do this",
-                    "do that"
+                    "Gathered real-time metrics and implemented real-time health of internal software systems to improve visibility and to allow support team to quickly identify issues",
+                    "Built a notification service that supports creating, signaling, and subscribing to internal applications’ health score",
+                    "Migrated an e-commerce dashboard from PHP MVC framework to Angular2"
                 ]
             }
         ],
