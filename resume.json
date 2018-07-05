@@ -23,7 +23,7 @@
                 "time": "Fall 2017",
                 "title": "Undergraduate Teaching Assistant",
                 "description": [
-                    "Supervised 4 teams of students as they spend the semester developing an Android application",
+                    "Supervised 4 teams as they developed an Android application",
                     "Hold weekly office hours and grade homework, demos, and exams"
                 ]
             },
@@ -33,9 +33,9 @@
                 "title": "Software Engineer Intern",
                 "description": [
                     "Developed new core features on PagerDuty’s web platform",
-                    "Implemented logic to produce webhook payload to Kafka cluster for a new service to consume",
+                    "Implemented logic to produce webhook payload to Kafka",
                     "Discovered and fixed a major issue in API testing set up",
-                    "Refactored an existing Javascript codebase to make it easier for debugging and unit testing",
+                    "Refactored an existing Javascript codebase to make it easier for unit testing",
                     "Participated in HackDay and won an award for the Best Product Enhancement",
                     "Technologies include Ruby on Rails, EmberJS, Coffeescript, MySQL, AWS Lambda"
                 ]
