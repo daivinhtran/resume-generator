@@ -1,0 +1,33 @@
+{
+    "header": {
+        "name": "Vinh Tran",
+        "github": "daivinhtran",
+        "linkedin": "vinhtran40",
+        "title": "Computer Science Student",
+        "email": "daivinhtran.vt@gmail.com",
+        "phone": "(404) 747-7044",
+        "location": "Atlanta, GA"
+    },
+    "body": {
+        "works": [
+            {
+                "company": "Uber",
+                "time": "Summer 2018",
+                "title": "Software Engineer Intern",
+                "description": [
+                    "do this",
+                    "do that"
+                ]
+            },
+            {
+                "company": "PagerDuty",
+                "time": "Summer 2017",
+                "title": "Software Engineer Intern",
+                "description": [
+                    "do this",
+                    "do that"
+                ]
+            }
+        ]
+    }
+}
