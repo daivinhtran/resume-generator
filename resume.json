@@ -12,7 +12,7 @@
         "works": [
             {
                 "company": "Uber",
-                "time": "Summer 2018 - present",
+                "time": "Summer 2018 - Present",
                 "title": "Software Engineer Intern",
                 "description": [
                     "Rider Team"
@@ -23,8 +23,8 @@
                 "time": "Fall 2017",
                 "title": "Undergraduate Teaching Assistant",
                 "description": [
-                    "Supervised 4 teams as they developed an Android application",
-                    "Hold weekly office hours and grade homework, demos, and exams"
+                    "Supervised four teams as they developed an Android application",
+                    "Held weekly office hours and graded homework, demos, and exams"
                 ]
             },
             {
@@ -33,21 +33,22 @@
                 "title": "Software Engineer Intern",
                 "description": [
                     "Developed new core features on PagerDuty’s web platform",
-                    "Implemented logic to produce webhook payload to Kafka",
+                    "Implemented logic to ingest webhook notifications to Kafka for external services",
                     "Discovered and fixed a major issue in API testing set up",
-                    "Refactored an existing Javascript codebase to make it easier for unit testing",
+                    "Refactored an existing outbound transformer codebase for easier unit testing",
                     "Participated in HackDay and won an award for the Best Product Enhancement",
-                    "Technologies include Ruby on Rails, EmberJS, Coffeescript, MySQL, AWS Lambda"
+                    "Technologies used: Ruby on Rails, EmberJS, Backbone, MySQL, AWS Lambda"
                 ]
             },
             {
-                "company": "Macy's",
+                "company": "Macy's Technology",
                 "time": "Summer 2016 - Fall 2016",
                 "title": "Software Engineer Intern",
                 "description": [
-                    "Gathered real-time metrics and implemented real-time health of internal software systems to improve visibility and to allow support team to quickly identify issues",
+                    "Collaborated with a software engineer to implement a health system for internal apps to improve visibility which allows other teams to quickly identify issues",
                     "Built a notification service that supports creating, signaling, and subscribing to internal applications’ health score",
-                    "Migrated an e-commerce dashboard from PHP MVC framework to Angular2"
+                    "Migrated the client view of an e-commerce dashboard from PHP to Angular2",
+                    "Technologies used: Angular2, Python, MySQL"
                 ]
             }
         ],
